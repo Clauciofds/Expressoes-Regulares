@@ -18,3 +18,4 @@ print(resposta.group())
 padrao = '\w{5,50}@[a-z]{2,10}.com.br'
 resposta = re.search(padrao, texto)
 print(resposta.group())
+
