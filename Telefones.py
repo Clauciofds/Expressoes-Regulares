@@ -10,6 +10,7 @@ class TelefoneBr:
             raise ValueError('Número incorreto')
 
     def __str__(self):
+        print('')
         return self.format_numero()
 
     def valida_telefone(self,telefone):
