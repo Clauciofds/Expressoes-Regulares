@@ -11,3 +11,6 @@ print(telefone_objeto)
 cadastro = DataBr()
 
 print(cadastro.format_data())
+
+hoje = DataBr()
+print(hoje.tempo_cadastro())
